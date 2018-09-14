@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="\5409d488" t="IncludeRecursive" />
+    <e p="\app" t="IncludeRecursive" />
+    <e p="C:\Users\yuu\.Rider2018.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\yuu\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\yuu\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Pacman.-1369447178.00" t="ExcludeRecursive" />
+    <e p="C:\Users\yuu\Downloads\Pacman_2\Pacman\Pacman" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="CameraController.cs" t="Include" />
+          <e p="NewBehaviourScript.cs" t="Include" />
+          <e p="OpponentController.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+          <e p="Rotater.cs" t="Include" />
+          <e p="SceneDirector.cs" t="Include" />
+          <e p="StaggeNameGenerator.cs" t="Include" />
+          <e p="WarpController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Pacman.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
