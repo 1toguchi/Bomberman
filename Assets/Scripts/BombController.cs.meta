@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e0c60bfb8d39ab24eb709af6711dc952
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ExplodePowerUpObj: {fileID: 1040326576385820, guid: 20f0e3a5519e0fd4f8efff13e84f1432,
+      type: 2}
+  - BombSpeedUpObj: {fileID: 1124171606790226, guid: eda90d22dcd97db42b45bd5a422aa908,
+      type: 2}
+  - ExplodeObj: {fileID: 1589402862012860, guid: cd1023f2850a1ce4590b18636b65e88a,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

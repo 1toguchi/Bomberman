@@ -26,9 +26,15 @@ public class EnemyController : MonoBehaviour
 
 
 		var closestTarget = FindClosestTarget("Block");
-		if (closestTarget != null) 
+		if (closestTarget.gameObject.activeSelf) 
 		{
+			Debug.Log($"destanation is  {_navAgent.destination}");
 			_navAgent.destination = closestTarget.transform.position;
+
+		}
+		else
+		{
+			
 		}
 
 		//navmesh がissleepではない？
@@ -46,6 +52,8 @@ public class EnemyController : MonoBehaviour
 	{
 		var closestGameObject = GameObject.FindGameObjectsWithTag(trgt)
 			.OrderBy(go => Vector3.Distance(go.transform.position, transform.position)).FirstOrDefault();
+		Debug.Log($"closest gameobect {closestGameObject.transform.position}");
+
 		return closestGameObject ;
 	}
 	
@@ -63,7 +71,7 @@ public class EnemyController : MonoBehaviour
 		Debug.Log($"distance is {distance}");
 		
 		if (distance == 0.5m)
-		{
+			{
 			Debug.Log($"0.5m is {true}");
 
 			if (_delta > bombSpan)
